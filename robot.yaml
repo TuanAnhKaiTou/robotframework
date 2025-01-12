@@ -1,0 +1,11 @@
+tasks:
+  Execute task:
+    shell: python -m robot -o output.xml -r report.html -l log.html -d reports ./test-cases/*.robot
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+
+PATH:
+  - .
+PYTHONPATH:
+  - .

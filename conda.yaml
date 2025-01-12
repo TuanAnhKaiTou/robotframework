@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.16
+  - pip=22.1.2
+  - pip:
+      - rpaframework==29.0.0
+      - robotframework-datadriver==1.11.2
+      - rpaframework-assistant==3.0.6

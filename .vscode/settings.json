@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "/Users/anhnt/Desktop/DoSomething/Framework/robot/."
+  ],
+  "python.terminal.activateEnvironment": false
+}
